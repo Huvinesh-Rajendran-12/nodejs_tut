@@ -20,9 +20,8 @@ class Person extends EventEmitter {
     super();
     this.name = name;
   }
-  // get the name
   /**
-   *
+   * get the name
    * @return {string} name
    */
   getName() {
